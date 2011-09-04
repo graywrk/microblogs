@@ -3,7 +3,8 @@
   <head>
     <title><%= title %></title>
     <%= csrf_meta_tag %>
-<%= render :partial => "layouts/stylesheet" %>
+    <%= render :partial => "layouts/stylesheet" %>
+    <%= javascript_include_tag :defaults %>
   </head>
   <body>
     <div class="container">
